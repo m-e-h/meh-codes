@@ -6,7 +6,7 @@
 
 	<?php else : ?>
 
-		<a class="app-header__logo-link" href="<?= get_permalink(); ?>">
+		<a class="app-header__logo-link" href="<?= get_home_url(); ?>">
 			<div class="app-header__logo">
 				<?= \Forsite\Tools\Svg::render( 'meh' ); ?>
 			</div>

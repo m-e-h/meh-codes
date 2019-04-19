@@ -25,15 +25,16 @@ svg {
 	justify-content: center;
 }
 
+.app-header > * {
+	max-width: 900px;
+	max-width: var(--content-width);
+}
+
 .app-header__branding {
 	display: flex;
 	flex-wrap: wrap;
 	text-align: inherit;
-	width: calc(100% - 3rem);
-	width: calc(100% - var(--base-space));
-	max-width: 900px;
-	max-width: var(--content-wide);
-	margin: 1rem auto;
+	padding: 0.5rem;
 }
 
 .app-header__title {
